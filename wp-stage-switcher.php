@@ -59,7 +59,7 @@ function admin_bar_stage_switcher($admin_bar) {
     } else {
       $stage_scheme = parse_url($stages[$current_stage], PHP_URL_SCHEME);
       $cur_stage_base = str_replace("$stage_scheme://", '', $stages[$current_stage]);
-      $url .= str_replace($cur_stage_base, '', $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']);
+      $url .= str_replace($cur_stage_base, '', $_SERVER['REQUEST_URI']);
     }
 
     $admin_bar->add_menu(array(
