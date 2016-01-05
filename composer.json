@@ -1,5 +1,5 @@
 {
-  "name": "roots/wp-stage-switcher",
+  "name": "natansdj/wp-stage-switcher",
   "type": "wordpress-plugin",
   "license": "MIT",
   "description": "WordPress plugin that allows you to switch between different environments from the admin bar",
