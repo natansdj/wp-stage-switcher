@@ -4,6 +4,8 @@ A WordPress plugin that allows you to switch between different environments from
 
 ![WordPress Stage Switcher](https://roots.io/app/uploads/plugin-stage-switcher-800x450.png)
 
+**Fixed bug on hosts url**
+
 ## Requirements
 
 You'll need to have `ENVIRONMENTS` and `WP_ENV` defined in your WordPress config.
@@ -32,7 +34,7 @@ If you use [Bedrock](https://github.com/roots/bedrock), `WP_ENV` is already defi
 If you're using Composer to manage WordPress, add wp-stage-switcher to your project's dependencies. Run:
 
 ```sh
-composer require roots/wp-stage-switcher 1.0.3
+composer require natansdj/wp-stage-switcher 1.0.4
 ```
 
 Or manually add it to your `composer.json`:
@@ -41,7 +43,7 @@ Or manually add it to your `composer.json`:
 "require": {
   "php": ">=5.3.0",
   "wordpress": "3.9.2",
-  "roots/wp-stage-switcher": "1.0.3"
+  "natansdj/wp-stage-switcher": "1.0.4"
 }
 ```
 

@@ -3,7 +3,7 @@
 Plugin Name:  Stage Switcher
 Plugin URI:   http://roots.io/plugins/stage-switcher/
 Description:  A WordPress plugin that allows you to switch between different environments from the admin bar.
-Version:      1.0.3
+Version:      1.0.4
 Author:       Ben Word
 Author URI:   http://roots.io/
 License:      MIT License
